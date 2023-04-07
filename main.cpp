@@ -6,7 +6,6 @@ using namespace std;
 
 int main(){
 
-    //grid of numbers
     int board[9][9];
 
     opening_example_from_file(board);
@@ -14,5 +13,6 @@ int main(){
     solve(board);
     print_board(board);
     system("PAUSE");
+    
     return 0;
 }
